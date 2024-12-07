@@ -11,30 +11,45 @@
 </head>
 <body class="font-inter bg-grey-900 flex justify-center items-center min-h-screen">
 
-    <div class="bg-grey-800 w-96 h-[36rem] rounded-lg shadow-2xl flex items-center flex-col flex-nowrap">
-        <div class="flex items-center flex-col gap-6 w-full h-full">
-            <img src="src/images/avatar-santiago.jpeg" alt="" class="w-28 h-auto rounded-full mt-10 mb-1">
-            <div class="flex items-center flex-col gap-2">
-                <h1 class="text-white font-bold text-xl">Santiago Del Percio Rodriguez</h1>
-            <h3 class="text-green font-bold">Buenos Aires, Argentina</h2>
-            </div> 
+    <div class="bg-grey-800 rounded-lg shadow-2xl w-72 h-[30rem] max-w-md mx-auto md:max-w-2xl md:shrink lg:w-80 lg:h-[35rem]">
+        <div class="flex flex-col h-full md:shrink">
+            <div class="flex justify-center flex-col gap-6 w-full h-full">
+                <img src="src/images/avatar-santiago.jpeg" alt="" class="w-28 md:w-30 lg:w-32 h-auto self-center rounded-full mt-10 mb-1">
+                <div class="flex items-center flex-col gap-1">
+                    <h1 class="text-white font-bold text-base flex text-center lg:text-lg">Santiago Del Percio Rodriguez</h1>
+                    <h3 class="text-green font-bold text-sm lg:text-base">Buenos Aires, Argentina</h2>
+                </div> 
+            </div>
+            <div class="w-full h-full text-white justify-items-center content-center">
+                <ul class="grid grid-cols-2 grid-rows-2 justify-items-center content-center items-center w-40 h-40 lg:flex lg:flex-col lg:gap-5 lg:w-80 lg:justify-center">
+                    <li class="bg-grey-700 rounded-lg h-14 w-14 lg:w-72 lg:h-11 lg:py-4 flex items-center justify-center hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100 ">
+                        <a href="https://github.com/santiagodelpercioR" class="w-full h-full flex items-center justify-center">
+                            <img src="src/images/github.png" alt="" class="h-14 lg:hidden">
+                            <span class="hidden lg:block">Github</span>
+                        </a>
+                    </li>
+                    <li class="bg-grey-700 rounded-lg h-14 w-14 lg:w-72 lg:h-11 lg:py-4 flex items-center justify-center hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100 ">
+                        <a href="https://github.com/santiagodelpercioR" class="w-full h-full flex items-center justify-center">
+                            <img src="src/images/linkedin.png" alt="" class="h-14 lg:hidden">
+                            <span class="hidden lg:block">Linkedin</span>
+                        </a>
+                    </li>
+                    <li class="bg-grey-700 rounded-lg h-14 w-14 lg:w-72 lg:h-11 lg:py-4 flex items-center justify-center hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100 ">
+                        <a href="https://github.com/santiagodelpercioR" class="w-full h-full flex items-center justify-center">
+                            <img src="src/images/twitter.png" alt="" class="h-10 lg:hidden">
+                            <span class="hidden lg:block">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="bg-grey-700 rounded-lg h-14 w-14 lg:w-72 lg:h-11 lg:py-4 flex items-center justify-center hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100 ">
+                        <a href="mailto:santiagodelpercio@gmail.com" class="w-full h-full flex items-center justify-center">
+                            <img src="src/images/mail.png" alt="" class="h-10 lg:hidden">
+                            <span class="hidden lg:block">Correo</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="w-full h-full text-white flex justify-center">
-            <ul class="flex flex-col text-center gap-5 w-80">
-                <li class="bg-grey-700 rounded-lg h-11 flex items-center justify-cente hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100">
-                    <a href="https://github.com/santiagodelpercioR" class="w-full h-full flex items-center justify-center">Github</a>
-                </li>
-                <li class="bg-grey-700 rounded-lg h-11 flex items-center justify-center hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100">
-                    <a href="https://www.linkedin.com/in/santiagodelpercior/" class="w-full h-full flex items-center justify-center">Linkedin</a>
-                </li>
-                <li class="bg-grey-700 rounded-lg h-11 flex items-center justify-center hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100">
-                    <a href="" class="w-full h-full flex items-center justify-center">Twitter</a>
-                </li>
-                <li class="bg-grey-700 rounded-lg h-11 flex items-center justify-center hover:text-black font-bold transition ease-in-out hover:bg-green hover:-translate-y-1 duration-100">
-                    <a href="" class="w-full h-full flex items-center justify-center">Instagram</a>
-                </li>
-            </ul>
-        </div>
+        
     </div>
 </body>
 </html>
