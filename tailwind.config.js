@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'inter':["Inter", 'sans-serif']
+        'rubik':["Rubik", 'sans-serif']
       },
       colors: {
         'green': "hsl(75, 94%, 57%)",
